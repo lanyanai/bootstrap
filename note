@@ -1,0 +1,68 @@
+bootstrap学习笔记：
+3.x版本：移动设备优先
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+控制缩放比
+移动浏览器推荐：<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+响应式图像：img-responsive，最大宽度100%
+normalize统一样式
+Bootstrap 代码从小屏幕设备（比如移动设备、平板电脑）开始，然后扩展到大屏幕设备（比如笔记本电脑、台式电脑）上的组件和网格。
+基础的 CSS 地址是移动设备优先，媒体查询地址是针对于平板电脑、台式电脑。
+
+默认小于768px: xs 不支持offset 12列 容器宽度不固定
+768~992: sm 750px
+992~1200: md 970px
+1200~: lg 1170px
+.col-xs-* / .col-sm-* / .col-md-* / .col-lg-*
+偏移：.col-sm-offset-*
+.col-sm-push-*离左边多少列
+.col-sm-pull-*离右边多少列
+
+<small>或者.small，字号更小，颜色更浅 父文本的85%
+.head更大更粗 更高的段落
+
+text-left text-middle text-right
+text-muted 颜色浅
+text-primary    不同颜色
+text-success
+text-info
+text-warning
+text-danger
+
+
+<abbr>底部虚线边框 title属性鼠标悬停显示
+.initialism给〈abbr>显示更小字体
+〈address></address>
+<code>内联元素
+<pre>块级元素
+
+table-striped   条纹表格
+table-bordered 每个元素周围都有边框
+
+.table-condensed 行内边距切为两半
+
+ .table-responsive响应式表格
+
+ <form> 元素添加 role="form"
+
+ .form-group 的 <div>
+
+ <input>、<textarea> 和 <select> 添加 class .form-control
+
+ <form> .form-inline内联
+ 水平表单 标签与表单元素在同一行
+
+    向父 <form> 元素添加 class .form-horizontal。
+    把标签和控件放在一个带有 class .form-group 的 <div> 中。
+    向标签添加 class .control-label。
+
+
+ .help-block
+ img-rounded 圆角
+ img-circle 全部圆形
+ img-thumbnail 添加一些内边距（padding）和一个灰色的边框
+
+ .close 关闭图标
+
+.caret 插入图标
+
